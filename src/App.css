@@ -1,38 +1,44 @@
-.App {
-  text-align: center;
+html {  justify-self: center;
+    width: 80%;
+    margin-top: 50px;
+    margin-left: 50px;
+background-image: url(https://img.freepik.com/free-vector/abstract-blue-geometric-shapes-background_1035-17545.jpg?w=2000)
+;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.form-group {
+    
+    background-color: transparent;
+    width: 500px;
+    height: 100%;
+    text-shadow: 5px;
+    background-repeat: no-repeat;
+    background-size:cover ;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#root{
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.form-group:hover
+{ box-shadow: 2px 2px 4px rgb(170, 32, 91);
+    transform: scale(1.02);
+  
 }
-
-.App-link {
-  color: #61dafb;
+.App
+{background-image: url(https://st.depositphotos.com/2143989/2630/v/450/depositphotos_26301339-stock-illustration-abstract-background.jpg);
+    border: solid greenyellow;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start;  
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App:hover
+{box-shadow: rgb(170, 32, 91);
+    transform: scale(1.05);  
 }
